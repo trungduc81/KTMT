@@ -17,7 +17,9 @@
 
 ### DX (Data Register):
 - Thanh ghi này dùng để lưu trữ dữ liệu phụ trợ trong các phép toán.
+- Thanh ghi lưu địa chỉ của chuỗi để sử dụng hàm ngắt loại 9 
 - **DH** và **DL** là các phần con của **DX** (**8-bit**).
+
 
 ## 2. Thanh ghi địa chỉ (Address Registers)
 
