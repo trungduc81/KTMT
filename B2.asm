@@ -1,3 +1,5 @@
+ ; 2. Viết chương trình hợp ngữ Assembly cho phép nhập 1 ký tự và in ra màn hình ký tự đó.	
+
 .Model Small 
 .Stack 100 
 .data
