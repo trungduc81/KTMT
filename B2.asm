@@ -29,7 +29,7 @@ MAIN PROC
     
     MOV AH , 2         ; ham ngat AH loai 2 de in ra 1 ky tu 
     
-    MOV DL , tmp       ; lay du lieu tu thanh ghi AL chuyen sang thanh ghi DL 
+    MOV DL , tmp       ; gan gia tri cua tmp cho thanh ghi DL de in ra 
     INT 21h            ; in ra ky tu   
     
     MOV AH , 4CH       ; ham ngat chuong trinh 
