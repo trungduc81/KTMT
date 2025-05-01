@@ -9,20 +9,16 @@
 MAIN PROC
     MOV AX, @DATA
     MOV DS, AX         ; Khoi tao DS
-
     ; In op1 yeu cau nhap so
     MOV AH, 9
     LEA DX, op1
     INT 21h
-
     ; Nhap chuoi so
     MOV AH, 10
     LEA DX, str        
     INT 21h
-    
     ; ham xu ly bai toan
     CALL Tinhtong
-    
     ; ham ket thuc chuong trinh
     MOV AH, 4CH
     INT 21h
@@ -47,8 +43,7 @@ Back:
     INC SI            ; tang SI de bo qua dau space 
     ADD sum , AX      ; sum = sum + AX 
     MOV AX , 0        ; dat lai AX de sang so moi   
-    JMP Cv 
-        
+    JMP Cv       
 Print:
      ADD sum , AX     ; + so cuoi cung vao sum 
      MOV AX , sum     ; gan gia tri cua sum cho AX
